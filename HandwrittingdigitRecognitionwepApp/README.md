@@ -10,7 +10,7 @@ An Image Classification Restful Api .
 ```bash
 $ # Get the code
 $ git clone https://github.com/Ibmaria/Image-Classification-Web-Apps.git
-$ cd Image-Classification-Web-Apps/ImageRestApi
+$ cd Image-Classification-Web-Apps/HandwrittingdigitRecognitionwepApp
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -21,7 +21,7 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 $
 $ # Install modules - SQLite Storage
-$ pip3 install -r requirements.txt or pip install -r requirements.txt
+$ pip3 install -r requirements.txt or pip install -r requirements.txt or recents.txt
 $
 $ # Create tables
 $ python manage.py makemigrations
@@ -36,18 +36,7 @@ $
 $ # Access the web app in browser: http://127.0.0.1:5000/
 ```
 
-```bash
-$ # Get the code
-$ git clone https://github.com/Ibmaria/Image-Classification-Web-Apps.git
-$ cd Image-Classification-Web-Apps/ImageRestApi
-$
-$ # WITH DOCKER
-$ docker-compose build
-$ docker-compose up
-$
-$
-$ # Access the web api in browser: http://127.0.0.1:5000/ and make requests
-```
+
 
 
 
@@ -55,7 +44,7 @@ $ # Access the web api in browser: http://127.0.0.1:5000/ and make requests
 
 
 ## Download Video App Here
-![App Video](https://github.com/Ibmaria/Image-Classification-Web-Apps/blob/master/ImageRestApi/videoapp.gif)
+![App Video](https://github.com/Ibmaria/Image-Classification-Web-Apps/blob/master/HandwrittingdigitRecognitionwepApp/videoapp.gif)
 
 
 ## Codebase structure
@@ -65,16 +54,14 @@ The project is coded using a simple and intuitive structure presented below:
 ```bash
 < PROJECT ROOT >
    |
-   |-- app_docker.py/                              
-   |--app.py
-   |--classify_image.py  
-   |--docker-compose.yml                      
-   |--Dockerfile              
-   |--requirements.txt
-   |--requirements_docker.txt  
-   |--INCEPTION.h5
-   |--videoapp.gif
-   |--videoapp.mp4
+   |--cnn/                              
+   |--tensor
+   |--tensorf                     
+   |--Procfile              
+   |--requirements.txt  
+   |--recents.txt 
+   |--model_digits.h5
+   |--manage.py
    |
    |-- ************************************************************************
 ```
