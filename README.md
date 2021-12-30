@@ -26,6 +26,8 @@ The project is coded using a simple and intuitive structure presented below:
    |
    |-- HandwrittingdigitRecognitionwepApp/                              
    |--ImageRestApi
+   |--Covid-Mask-Detector
+   |--Document-Image-Classification
    |-- ************************************************************************
 ```
 
