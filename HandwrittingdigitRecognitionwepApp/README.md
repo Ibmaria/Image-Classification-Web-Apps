@@ -1,7 +1,7 @@
 # Author Ibrahim Koné 
 # Image Classification Restful Api
 
-An Image Classification Restful Api .
+Image Classification Restful Api .
 
 <br />
 
